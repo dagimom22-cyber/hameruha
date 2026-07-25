@@ -13,7 +13,7 @@ const products = JSON.parse(localStorage.getItem("products")) || [
     price: 25, 
     image: "images/hd.jpg", 
     description: "Moisturizes and refreshes skin.",
-    stock: 5
+    stock: 6
   },
   { 
     id: 3, 

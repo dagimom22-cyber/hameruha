@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hameruha Store - Home</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <div class="img">
+    <img src="images/logooo.png" alt="logo">
+  </div>
+
+  <div class="search">
+    <input type="search" placeholder="Search product">
+    <button>🔍</button>
+  </div>
+
+  <h1>Hameruha Store</h1>
+
+  <nav>
+    <ul>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Signup</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cart.html">🛒Cart (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+  <button id="darkToggle" class="dark-btn">🌙</button>
+
+</header>
+
+<section class="hero">
+  <h2>Welcome to Hameruha Store</h2>
+  <p>Beauty meets confidence. Shop your favorite cosmetics.</p>
+</section>
+
+<section class="products">
+  <h2>Our Products</h2>
+  <div id="productGrid" class="product-grid"></div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Hameruha Store | Designed by Dagii</p>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
